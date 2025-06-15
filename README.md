@@ -5,7 +5,7 @@ Die Seite wurde von mir gestaltet und entwickelt, um die Mission, den Glauben un
 
 ## 🔎 Vorschau
 
-🌐 [Demo ansehen](https://github.com/Aribeck/Stra-enmission.git)  
+🌐 [Demo ansehen](https://aribeck.github.io/Stra-enmission/)  
 
 ---
 
