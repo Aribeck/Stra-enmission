@@ -1,0 +1,264 @@
+html {
+    font-size: 16px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+body {
+    display: block;
+}
+
+
+#nav  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #700000;
+    color: #fff;
+    border-radius: 20px;
+    max-width: 100%;  
+}
+
+img {
+    margin-left: 1rem;
+}
+
+h1 {
+    width: 50%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: Cambria, serif;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  align-items: right;
+}
+
+#navbar ul li {
+  font-size: 1.125rem;
+  color: #cccccc;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  margin-left: 1.5rem;
+}
+
+#navbar ul li a:hover {
+  color: #FFD700;
+}
+
+#Info {
+    display: flex;
+}
+
+#Wer_wir_sind {
+    margin-top: 5rem;
+    width: 50%;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.125rem;
+}
+
+#Vers1 {
+    width: 50%;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    background-color: #700000;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+
+#one {
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 5.5rem auto;
+    margin-bottom: 2rem;
+}
+
+svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #700000;
+}
+
+#Was_wir_glauben {
+    width: 50%;
+    padding: 1rem;
+    margin-top: 5rem;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 3rem auto;
+}
+
+#Vers2 {
+    width: 50%;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    background-color: #700000;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+hr {
+    width: 50%;
+
+}
+
+#arrow {
+    fill: #fff;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#Aufruf {
+    display: flex;
+}
+
+#Und_du {
+    width: 50%;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    background-color: #700000;
+    margin-top: 3rem;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    font-size: 1.125rem;
+}
+
+#Kontakt, #map {
+    flex: 1 1 45%;
+    color: white;
+    text-align: center;
+}
+
+#map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Kontakt a {
+    color: #fff;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#Kontakt a:hover {
+    color: #FFD700;
+}
+
+#Kontakt i {
+    margin-right: 0.5rem;
+    color: #FFD700;
+}
+
+#copyright {
+  font-size: 0.875rem;
+  color: #ccc;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #logo {
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #navbar ul li a {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        margin-top: 0.5rem
+    }
+
+    #Info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Aufruf {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Vers1, #Vers2 {
+        width: 90%;
+        margin: 1rem auto;
+        border-radius: 40%;
+    } 
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #map iframe {
+        display: block;
+        width: 100%;
+        height: 250px;
+        margin: 1rem auto;
+        max-width: 400px;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
