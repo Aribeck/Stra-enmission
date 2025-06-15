@@ -213,12 +213,28 @@ footer {
         margin-bottom: 0.5rem;
     }
 
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
     #navbar ul li a {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
+        display: block; 
+        font-size: 1.2rem;
     }
 
     h1 {
-        margin-top: 0.5rem
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 0 auto;
+        padding: 1rem;
+        line-height: 1.3;
     }
 
     #Info {
@@ -234,7 +250,8 @@ footer {
     #Vers1, #Vers2 {
         width: 90%;
         margin: 1rem auto;
-        border-radius: 40%;
+        border-radius: 1rem;
+        padding: 1.5rem;
     } 
 
     footer {
