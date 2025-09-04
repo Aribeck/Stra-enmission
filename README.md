@@ -13,7 +13,6 @@ Die Seite wurde von mir gestaltet und entwickelt, um die Mission, den Glauben un
 
 - Navigation mit Sprungmarken
 - Responsive Layout (mobilfreundlich)
-- Christliche Botschaften und Bibelverse
 - Kontaktbereich mit Icons und eingebetteter Google Maps
 - Einheitliches, klares Design in bordeauxrot/weiß
 
@@ -31,7 +30,7 @@ Die Seite wurde von mir gestaltet und entwickelt, um die Mission, den Glauben un
 
 ## 📜 Lizenz
 
-Diese Webseite wurde von Aribeck als persönliches Projekt erstellt
+Diese Webseite wurde von mir als persönliches Projekt erstellt
 für die Straßenmission glaubensfroher Christen in Waldbröl.
 
 Alle Inhalte (Texte, Code, Design, Logo) sind urheberrechtlich geschützt.
